@@ -1,0 +1,33 @@
+.navbar {
+    letter-spacing: 0.5px;
+    font-size: 1.05rem;
+}
+
+.navbar .nav-link {
+    position: relative;
+    color: #fff !important;
+    margin: 0 10px;
+    transition: color 0.2s;
+}
+
+.navbar .nav-link.active,
+.navbar .nav-link:hover {
+    color: #ffd700 !important;
+}
+
+.navbar .nav-link::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #ffd700;
+    transition: width .3s;
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+}
+
+.navbar .nav-link.active::after,
+.navbar .nav-link:hover::after {
+    width: 100%;
+}
