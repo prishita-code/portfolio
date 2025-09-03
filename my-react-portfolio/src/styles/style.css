@@ -21,7 +21,6 @@ body {
 
 /* Banner styles */
 .site-banner {
-    background: url('../img/banner/prishi.png') no-repeat center center;
     background-size: cover;
     height: 100vh;
     display: flex;
@@ -113,4 +112,11 @@ body {
 .site-buttons .btn:hover, .site-buttons .btn:focus {
   transform: translateY(-2px) scale(1.04);
   box-shadow: 0 4px 24px rgba(108,99,255,0.15);
+}
+
+.banner-image img {
+  max-height: 600px;
+  width: 100%;
+  max-width: 500px;
+  object-fit: contain;
 }
