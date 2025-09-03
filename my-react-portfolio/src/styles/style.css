@@ -1,0 +1,84 @@
+/* Custom CSS styles for the React portfolio application */
+
+/* General styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #343a40;
+}
+
+/* Header styles */
+.header_area {
+    background-color: #343a40;
+    padding: 20px 0;
+}
+
+.header_area .navbar-brand img {
+    width: 18%;
+}
+
+/* Banner styles */
+.site-banner {
+    background: url('../img/banner/prishi.png') no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.site-banner .title-text {
+    color: #ffffff;
+}
+
+/* About section styles */
+.about-area {
+    padding: 60px 0;
+}
+
+.about-area .about-title h2 {
+    font-size: 2.5em;
+}
+
+/* Skillset section styles */
+.services-area {
+    padding: 60px 0;
+}
+
+.services-area .services {
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    transition: transform 0.3s;
+}
+
+.services-area .services:hover {
+    transform: scale(1.05);
+}
+
+/* Footer styles */
+.footer-area {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 20px 0;
+}
+
+.footer-area .social a {
+    color: #ffffff;
+    margin: 0 10px;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .site-banner {
+        height: auto;
+        padding: 40px 0;
+    }
+
+    .about-area .about-image img {
+        width: 100%;
+        height: auto;
+    }
+}
