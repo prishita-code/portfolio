@@ -6,18 +6,25 @@ const Home = () => {
             <div className="container">
                 <div className="row">
                     <div className="col-lg-6 col-md-12 site-title">
-                        <h3 className="title-text">Hey</h3>
-                        <h1 className="title-text text-uppercase">I am Prishita</h1>
-                        <h4 className="title-text text-uppercase">Full Stack Developer</h4>
-                        <div className="site-buttons">
-                            <div className="d-flex flex-row flex-wrap">
-                                <a href="#about">
-                                    <button type="button" className="btn button primary-button mr-4 text-uppercase">know me</button>
-                                </a>
-                                <a href="#contact">
-                                    <button type="button" className="btn button secondary-button text-uppercase">Contact me</button>
-                                </a>
-                            </div>
+           {/* Place this inside your Banner or Home component */}
+                        <div className="banner-text-container text-center">
+                            <h1 className="display-4 fw-bold text-black">Hey</h1>
+                            <h2 className="display-5 fw-semibold text-black">I am Prishita</h2>
+                            <h3 className="h4 text-black">Full Stack Developer</h3>
+                        </div>
+                        <div className="site-buttons mt-4">
+                        <div className="d-flex flex-row flex-wrap justify-content-center gap-3">
+                            <a href="#about">
+                            <button type="button" className="btn btn-primary btn-lg px-4 rounded-pill shadow-sm text-uppercase">
+                                Know Me
+                            </button>
+                            </a>
+                            <a href="#contact">
+                            <button type="button" className="btn btn-outline-primary btn-lg px-4 rounded-pill shadow-sm text-uppercase">
+                                Contact Me
+                            </button>
+                            </a>
+                        </div>
                         </div>
                     </div>
                     <div className="col-lg-6 col-md-12 banner-image">

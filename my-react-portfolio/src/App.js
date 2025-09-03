@@ -6,7 +6,7 @@ import About from './pages/About';
 import Technology from './pages/Technology';
 import Skillset from './pages/Skillset';
 import Contact from './pages/Contact';
-import './styles/bootstrap.min.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './styles/all.min.css';
 import './styles/style.css';
 import './styles/responsive.css';
