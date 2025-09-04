@@ -25,6 +25,9 @@ const Navbar = () => {
                             <Link className={`nav-link${location.pathname === '/about' ? ' active' : ''}`} to="/about">About</Link>
                         </li>
                         <li className="nav-item">
+                            <Link className={`nav-link${location.pathname === '/journey' ? ' active' : ''}`} to="/journey">Journey</Link>
+                        </li>
+                        <li className="nav-item">
                             <Link className={`nav-link${location.pathname === '/technology' ? ' active' : ''}`} to="/technology">Languages</Link>
                         </li>
                         <li className="nav-item">

@@ -5,9 +5,10 @@ import goImg from '../img/brands/go.png';
 import javaImg from '../img/brands/java.jpg';
 import reactImg from '../img/brands/logo192.png';
 import nodejsImg from '../img/brands/nodejs.png';
-import pythonImg from '../img/brands/python.png';
+import pythonImg from '../img/brands/py.png';
 import bootstrapImg from '../img/brands/bootstrap.png';
-import terraformImg from '../img/brands/terraform.webp';
+import terraformImg from '../img/brands/terra.png';
+import kubernetesImg from '../img/brands/kubernetes.png';
 import '../styles/style.css';
 
 const technologies = [
@@ -16,9 +17,10 @@ const technologies = [
     { img: nodejsImg, name: 'NodeJS' },
     { img: angularImg, name: 'Angular' },
     { img: cppImg, name: 'C++' },
-    { img: bootstrapImg, name: 'BootStrap' },
+    { img: bootstrapImg, name: 'Springboot' },
     { img: pythonImg, name: 'Python' },
     { img: terraformImg, name: 'Terraform' },
+    { img: kubernetesImg, name: 'Kubernetes' },
 ];
 
 const Technology = () => {
