@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import S1 from '../img/services/s1.png';
 import S2 from '../img/services/s2.png';
 import S3 from '../img/services/s3.png';
@@ -8,7 +7,7 @@ import S4 from '../img/services/s4.png';
 const Skillset = () => {
     return (
         <section className="services-area" id="skillset">
-            <div className="container">
+            <div className="container pt-5">
                 <div className="row">
                     <div className="col-lg-12 text-center services-title">
                         <h1 className="text-uppercase title-text">Skill set</h1>
@@ -18,70 +17,65 @@ const Skillset = () => {
                         </p>
                     </div>
                 </div>
-                <div className="container services-list">
-                    <div className="row">
-                        <div className="col-lg-3 col-md-6 col-sm-12">
-                            <div className="services">
-                                <div className="sevices-img text-center py-4">
-                                    <img src={S1} alt="Services-1" />
+                    <div className="container services-list">
+                            <div className="row g-2 justify-content-center text-center align-items-stretch">
+                                <div className="col-lg-4 col-md-6 col-sm-12 h-100">
+                                    <div className="services h-100 d-flex flex-column">
+                                        <div className="sevices-img text-center py-4">
+                                            <img src={S1} alt="Backend developer" />
+                                        </div>
+                                        <div className="card-body text-center flex-grow-1">
+                                            <h5 className="card-title text-uppercase font-roboto">Backend developer</h5>
+                                            <p className="card-text text-secondary">
+                                                Developed and deployed functional APIs, jobs and services while aligning with scheduler in real time.
+                                            </p>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div className="card-body text-center">
-                                    <h5 className="card-title text-uppercase font-roboto">Backend developer</h5>
-                                    <p className="card-text text-secondary">
-                                        Developed and deployed functional API,
-                                         jobs and services while aligning with 
-                                         scheduler in real time
-                                    </p>
+                                <div className="col-lg-4 col-md-6 col-sm-12 h-100">
+                                    <div className="services h-100 d-flex flex-column">
+                                        <div className="sevices-img text-center py-4">
+                                            <img src={S2} alt="Frontend developer" />
+                                        </div>
+                                        <div className="card-body text-center flex-grow-1">
+                                            <h5 className="card-title text-uppercase font-roboto">Frontend developer</h5>
+                                            <p className="card-text text-secondary">
+                                                Built interactive UIs and dashboards using React, Angular, and modern CSS frameworks.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="col-lg-4 col-md-6 col-sm-12 h-100">
+                                    <div className="services h-100 d-flex flex-column">
+                                        <div className="sevices-img text-center py-4">
+                                            <img src={S3} alt="DevOps & SRE" />
+                                        </div>
+                                        <div className="card-body text-center flex-grow-1">
+                                            <h5 className="card-title text-uppercase font-roboto">DevOps & SRE</h5>
+                                            <p className="card-text text-secondary">
+                                                Automated deployments, monitored reliability, and implemented CI/CD pipelines for scalable systems.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="row g-2 justify-content-center text-center align-items-stretch">
+                                <div className="col-lg-4 col-md-6 col-sm-12 h-100">
+                                    <div className="services h-100 d-flex flex-column">
+                                        <div className="sevices-img text-center py-4">
+                                            <img src={S4} alt="Technical Program Manager" />
+                                        </div>
+                                        <div className="card-body text-center flex-grow-1">
+                                            <h5 className="card-title text-uppercase font-roboto">Technical Program Manager</h5>
+                                            <p className="card-text text-secondary">
+                                                Led cross-functional teams, managed SDLC, and delivered projects using Agile/Scrum methodologies.
+                                            </p>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-3 col-md-6 col-sm-12">
-                            <div className="services">
-                                <div className="sevices-img text-center py-4">
-                                    <img src={S2} alt="Services-2" />
-                                </div>
-                                <div className="card-body text-center">
-                                    <h5 className="card-title text-uppercase font-roboto">ux/ui Design</h5>
-                                    <p className="card-text text-secondary">
-                                        Created Wireframes and implemented 
-                                        the functionality and the responsive
-                                        design using framework.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-3 col-md-6 col-sm-12">
-                            <div className="services">
-                                <div className="sevices-img text-center py-4">
-                                    <img src={S3} alt="Services-3" />
-                                </div>
-                                <div className="card-body text-center">
-                                    <h5 className="card-title text-uppercase font-roboto">Web Developer</h5>
-                                    <p className="card-text text-secondary">
-                                        Some quick example text to build on the card
-                                        title and make up
-                                        the bulk of the card's content.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-3 col-md-6 col-sm-12">
-                            <div className="services">
-                                <div className="sevices-img text-center py-4">
-                                    <img src={S4} alt="Services-4" />
-                                </div>
-                                <div className="card-body text-center">
-                                    <h5 className="card-title text-uppercase font-roboto">Cloud</h5>
-                                    <p className="card-text text-secondary">
-                                        AWS Cloud Practitioner Certified
-                                        Upscalling new features to apps with respect to cloud
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                 </div>
-            </div>
         </section>
     );
 };

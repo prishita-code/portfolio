@@ -19,7 +19,7 @@ const technologies = [
 const Technology = () => {
     return (
         <section className="services-area" id="technology">
-            <div className="container">
+            <div className="container pt-5">
                 <div className="row">
                     <div className="col-lg-12 text-center services-title">
                         <h1 className="text-uppercase title-text">Technologies</h1>
