@@ -36,7 +36,7 @@ const About = () => {
                                 #TPM #TechnicalProgramManager #SRE #SiteReliabilityEngineering #SoftwareDeveloper #Agile #SDLC
                             </p>
                         </div>
-                        <button type="button" className="btn btn-primary text-uppercase">Download CV</button>
+                        {/* <button type="button" className="btn btn-primary text-uppercase">Download CV</button> */}
                     </div>
                 </div>
             </div>

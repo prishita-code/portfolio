@@ -33,15 +33,15 @@ const Contact = () => {
                             LinkedIn
                         </h4>
                         <p className="para">You can also connect with me on LinkedIn.</p>
-                        <a className="nav-link" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/prishitasingh">linkedin/prishitasingh</a>
+                        <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/prishitasingh">linkedin/prishitasingh</a>
                     </div>
                     <div className="col-lg-4 col-md-6 mb-4">
                         <h4 className="text-uppercase">
                             <img src={instagramImg} alt="instagram" style={{ width: '32px', marginRight: '8px' }} />
                             Instagram
                         </h4>
-                        <p className="para">Link to my Food and Painting Account</p>
-                        <a className="nav-link" href="https://instagram.com/colorandfoodrush_official?igshid=1rdxrfc73odz">instagram/colorandfoodrush_official</a>
+                        <p className="para">Link to my Personal Account</p>
+                        <a href="https://instagram.com/singh_prishita">instagram/singh_prishita</a>
                     </div>
                 </div>
             </div>

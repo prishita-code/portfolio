@@ -18,63 +18,61 @@ const Skillset = () => {
                     </div>
                 </div>
                     <div className="container services-list">
-                            <div className="row g-2 justify-content-center text-center align-items-stretch">
-                                <div className="col-lg-4 col-md-6 col-sm-12 h-100">
-                                    <div className="services h-100 d-flex flex-column">
-                                        <div className="sevices-img text-center py-4">
-                                            <img src={S1} alt="Backend developer" />
-                                        </div>
-                                        <div className="card-body text-center flex-grow-1">
-                                            <h5 className="card-title text-uppercase font-roboto">Backend developer</h5>
-                                            <p className="card-text text-secondary">
-                                                Developed and deployed functional APIs, jobs and services while aligning with scheduler in real time.
-                                            </p>
-                                        </div>
+                        <div className="row g-4 justify-content-center text-center align-items-stretch">
+                            <div className="col-lg-4 col-md-6 col-sm-12 h-100">
+                                <div className="services h-100 d-flex flex-column">
+                                    <div className="sevices-img text-center py-4">
+                                        <img src={S1} alt="Backend developer" />
                                     </div>
-                                </div>
-                                <div className="col-lg-4 col-md-6 col-sm-12 h-100">
-                                    <div className="services h-100 d-flex flex-column">
-                                        <div className="sevices-img text-center py-4">
-                                            <img src={S2} alt="Frontend developer" />
-                                        </div>
-                                        <div className="card-body text-center flex-grow-1">
-                                            <h5 className="card-title text-uppercase font-roboto">Frontend developer</h5>
-                                            <p className="card-text text-secondary">
-                                                Built interactive UIs and dashboards using React, Angular, and modern CSS frameworks.
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="col-lg-4 col-md-6 col-sm-12 h-100">
-                                    <div className="services h-100 d-flex flex-column">
-                                        <div className="sevices-img text-center py-4">
-                                            <img src={S3} alt="DevOps & SRE" />
-                                        </div>
-                                        <div className="card-body text-center flex-grow-1">
-                                            <h5 className="card-title text-uppercase font-roboto">DevOps & SRE</h5>
-                                            <p className="card-text text-secondary">
-                                                Automated deployments, monitored reliability, and implemented CI/CD pipelines for scalable systems.
-                                            </p>
-                                        </div>
+                                    <div className="card-body text-center flex-grow-1">
+                                        <h5 className="card-title text-uppercase font-roboto">Backend developer</h5>
+                                        <p className="card-text text-secondary">
+                                            Developed and deployed functional APIs, jobs and services while aligning with scheduler in real time.
+                                        </p>
                                     </div>
                                 </div>
                             </div>
-                            <div className="row g-2 justify-content-center text-center align-items-stretch">
-                                <div className="col-lg-4 col-md-6 col-sm-12 h-100">
-                                    <div className="services h-100 d-flex flex-column">
-                                        <div className="sevices-img text-center py-4">
-                                            <img src={S4} alt="Technical Program Manager" />
-                                        </div>
-                                        <div className="card-body text-center flex-grow-1">
-                                            <h5 className="card-title text-uppercase font-roboto">Technical Program Manager</h5>
-                                            <p className="card-text text-secondary">
-                                                Led cross-functional teams, managed SDLC, and delivered projects using Agile/Scrum methodologies.
-                                            </p>
-                                        </div>
+                            <div className="col-lg-4 col-md-6 col-sm-12 h-100">
+                                <div className="services h-100 d-flex flex-column">
+                                    <div className="sevices-img text-center py-4">
+                                        <img src={S2} alt="Frontend developer" />
+                                    </div>
+                                    <div className="card-body text-center flex-grow-1">
+                                        <h5 className="card-title text-uppercase font-roboto">Frontend developer</h5>
+                                        <p className="card-text text-secondary">
+                                            Built interactive UIs and dashboards using React, Angular, and modern CSS frameworks.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-lg-4 col-md-6 col-sm-12 h-100">
+                                <div className="services h-100 d-flex flex-column">
+                                    <div className="sevices-img text-center py-4">
+                                        <img src={S3} alt="DevOps & SRE" />
+                                    </div>
+                                    <div className="card-body text-center flex-grow-1">
+                                        <h5 className="card-title text-uppercase font-roboto">DevOps & SRE</h5>
+                                        <p className="card-text text-secondary">
+                                            Automated deployments, monitored reliability, and implemented CI/CD pipelines for scalable systems.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-lg-4 col-md-6 col-sm-12 h-100">
+                                <div className="services h-100 d-flex flex-column">
+                                    <div className="sevices-img text-center py-4">
+                                        <img src={S4} alt="Technical Program Manager" />
+                                    </div>
+                                    <div className="card-body text-center flex-grow-1">
+                                        <h5 className="card-title text-uppercase font-roboto">Technical Program Manager</h5>
+                                        <p className="card-text text-secondary">
+                                            Led cross-functional teams, managed SDLC, and delivered projects using Agile/Scrum methodologies.
+                                        </p>
                                     </div>
                                 </div>
                             </div>
                         </div>
+                    </div>
                 </div>
         </section>
     );
