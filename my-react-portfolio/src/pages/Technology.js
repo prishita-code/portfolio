@@ -29,7 +29,7 @@ const Technology = () => {
                     </div>
                 </div>
                 <div className="container services-list">
-                    <div className="row">
+                    <div className="row g-4">
                         {technologies.map((tech, idx) => (
                             <div className="col-lg-4 col-md-6 col-sm-12" key={idx}>
                                 <div className="services">
