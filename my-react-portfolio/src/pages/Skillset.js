@@ -1,4 +1,9 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import S1 from '../img/services/s1.png';
+import S2 from '../img/services/s2.png';
+import S3 from '../img/services/s3.png';
+import S4 from '../img/services/s4.png';
 
 const Skillset = () => {
     return (
@@ -18,7 +23,7 @@ const Skillset = () => {
                         <div className="col-lg-3 col-md-6 col-sm-12">
                             <div className="services">
                                 <div className="sevices-img text-center py-4">
-                                    <img src="./img/services/s1.png" alt="Services-1" />
+                                    <img src={S1} alt="Services-1" />
                                 </div>
                                 <div className="card-body text-center">
                                     <h5 className="card-title text-uppercase font-roboto">Backend developer</h5>
@@ -33,7 +38,7 @@ const Skillset = () => {
                         <div className="col-lg-3 col-md-6 col-sm-12">
                             <div className="services">
                                 <div className="sevices-img text-center py-4">
-                                    <img src="./img/services/s2.png" alt="Services-2" />
+                                    <img src={S2} alt="Services-2" />
                                 </div>
                                 <div className="card-body text-center">
                                     <h5 className="card-title text-uppercase font-roboto">ux/ui Design</h5>
@@ -48,7 +53,7 @@ const Skillset = () => {
                         <div className="col-lg-3 col-md-6 col-sm-12">
                             <div className="services">
                                 <div className="sevices-img text-center py-4">
-                                    <img src="./img/services/s3.png" alt="Services-3" />
+                                    <img src={S3} alt="Services-3" />
                                 </div>
                                 <div className="card-body text-center">
                                     <h5 className="card-title text-uppercase font-roboto">Web Developer</h5>
@@ -63,7 +68,7 @@ const Skillset = () => {
                         <div className="col-lg-3 col-md-6 col-sm-12">
                             <div className="services">
                                 <div className="sevices-img text-center py-4">
-                                    <img src="./img/services/s4.png" alt="Services-4" />
+                                    <img src={S4} alt="Services-4" />
                                 </div>
                                 <div className="card-body text-center">
                                     <h5 className="card-title text-uppercase font-roboto">Cloud</h5>
