@@ -157,3 +157,35 @@
 .milestone.right::before {
   left: -12px;
 }
+.milestone-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+/* Text side */
+.milestone-text {
+  flex: 1;
+}
+
+/* Image side */
+.milestone-image {
+  flex-shrink: 0;
+  width: 150px; /* adjust as needed */
+}
+
+.milestone-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  object-fit: cover;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+.milestone.left .milestone-content {
+  flex-direction: row; /* text left, image right */
+}
+
+.milestone.right .milestone-content {
+  flex-direction: row-reverse; /* text right, image left */
+}

@@ -7,7 +7,7 @@ const Journey = () => {
   const milestoneRefs = useRef([]);
 
   const milestones = [
-    { year: '1997', title: 'Birth', description: 'Started my journey in this world.' },
+    { year: '1997', title: 'Birth', description: 'Started my journey in this world.', image: '../img/banner/prishi.png' },
     { year: '2002', title: 'Sarted school', description: 'Class 1' },
     { year: '2014', title: 'Secondary School', description: 'Completed Class 10' },
     { year: '2016', title: 'High School', description: 'Completed Class 12' },
@@ -98,18 +98,23 @@ const Journey = () => {
                 ref={(el) => (milestoneRefs.current[index] = el)}
                 className={`milestone ${index === activeIndex ? 'active' : ''} ${index % 2 === 0 ? 'left' : 'right'}`}
               >
-                <div className="milestone-content">
-                  <div className="milestone-header">
-                    <span className="milestone-year">{milestone.year}</span>
-                    <h3 className="milestone-title">{milestone.title}</h3>
-                  </div>
-                        {milestone.image && (
-                        <div className="milestone-image">
-                            <img src={milestone.image} alt={milestone.title} />
+               <div className="milestone-content">
+                    {/* Text side */}
+                    <div className="milestone-text">
+                        <div className="milestone-header">
+                        <span className="milestone-year">{milestone.year}</span>
+                        <h3 className="milestone-title">{milestone.title}</h3>
                         </div>
-                        )}
-                  <p className="milestone-description">{milestone.description}</p>
-                </div>
+                        <p className="milestone-description">{milestone.description}</p>
+                    </div>
+
+                    {/* Image side */}
+                    {milestone.image && (
+                        <div className="milestone-image">
+                        <img src={milestone.image} alt={milestone.title} />
+                        </div>
+                    )}
+                    </div>
               </div>
             ))}
           </div>
