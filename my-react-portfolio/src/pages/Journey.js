@@ -7,13 +7,19 @@ const Journey = () => {
   const milestoneRefs = useRef([]);
 
   const milestones = [
-    { year: '2018', title: 'First Steps', description: 'Started our journey with a small team and big dreams.' },
-    { year: '2019', title: 'Growth Phase', description: 'Expanded our services and reached new markets.' },
-    { year: '2020', title: 'Adaptation', description: 'Pivoted during challenging times and found new opportunities.' },
-    { year: '2021', title: 'Breakthrough', description: 'Launched our flagship product to great acclaim.' },
-    { year: '2022', title: 'Expansion', description: 'Opened offices in three new countries.' },
-    { year: '2023', title: 'Innovation', description: 'Introduced groundbreaking AI technology to our platform.' },
-    { year: '2024', title: 'Future Vision', description: 'Setting new industry standards with our latest initiatives.' }
+    { year: '1997', title: 'Birth', description: 'Started my journey in this world.' },
+    { year: '2002', title: 'Sarted school', description: 'Class 1' },
+    { year: '2014', title: 'Secondary School', description: 'Completed Class 10' },
+    { year: '2016', title: 'High School', description: 'Completed Class 12' },
+    { year: '2016', title: 'Bachelors', description: 'Started pursuing Bachelors in Technology (Computer Science)' },
+    { year: '2019', title: 'Internship', description: 'Summer Intern' },
+    { year: '2020', title: 'Graduated', description: 'Finished Bachelors' },
+    { year: '2020', title: 'First Job', description: 'Joined as a Software Engineer at Macquarie' },
+    { year: '2022', title: 'Promoted', description: 'Promoted to Senior Software Developer' },
+    { year: '2022', title: 'Masters', description: 'Started Masters at Trinity College Dunlin (MSc Computer Science)' },
+    { year: '2023', title: 'Graduated', description: 'Completed Masters' },
+    { year: '2023', title: 'New Role', description: 'Joined Bank of Ireland as Technical Service Owner' },
+    { year: '2025', title: 'Promoted', description: 'Promoted to Senior Rescilience Analyst' },
   ];
 
   const handleNext = () => {
@@ -97,6 +103,11 @@ const Journey = () => {
                     <span className="milestone-year">{milestone.year}</span>
                     <h3 className="milestone-title">{milestone.title}</h3>
                   </div>
+                        {milestone.image && (
+                        <div className="milestone-image">
+                            <img src={milestone.image} alt={milestone.title} />
+                        </div>
+                        )}
                   <p className="milestone-description">{milestone.description}</p>
                 </div>
               </div>
