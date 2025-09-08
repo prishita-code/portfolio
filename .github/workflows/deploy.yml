@@ -8,10 +8,10 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     
-    - name: Setup Node.js
+    - name: Setup Node.js 16
       uses: actions/setup-node@v3
       with:
-        node-version: '16'  # Use Node 16 instead of latest
+        node-version: '16.20.2'  # Specific compatible version
         cache: 'npm'
         cache-dependency-path: my-react-portfolio/package-lock.json
     
@@ -23,7 +23,6 @@ jobs:
     - name: Build React App
       run: |
         cd my-react-portfolio
-        export NODE_OPTIONS=--openssl-legacy-provider
         npm run build
     
     - name: Deploy to GitHub Pages
