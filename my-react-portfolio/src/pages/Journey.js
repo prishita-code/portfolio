@@ -1,14 +1,15 @@
 import React, { useState, useEffect, useRef } from 'react';
 import '../styles/journey.css';
+import birthImage from '../img/banner/prishi.png';
 
 const Journey = () => {
   const [activeIndex, setActiveIndex] = useState(0);
   const scrollRef = useRef(null);
   const milestoneRefs = useRef([]);
 
-  const milestones = [
-    { year: '1997', title: 'Birth', description: 'Started my journey in this world.', image: '../img/banner/prishi.png' },
-    { year: '2002', title: 'Sarted school', description: 'Class 1' },
+  const milestones = [ 
+    { year: '1997', title: 'Birth', description: 'Started my journey in this world.', image: birthImage },
+    { year: '2002', title: 'Started school', description: 'Class 1' },
     { year: '2014', title: 'Secondary School', description: 'Completed Class 10' },
     { year: '2016', title: 'High School', description: 'Completed Class 12' },
     { year: '2016', title: 'Bachelors', description: 'Started pursuing Bachelors in Technology (Computer Science)' },
