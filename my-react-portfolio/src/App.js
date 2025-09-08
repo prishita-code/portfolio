@@ -9,6 +9,7 @@ import Skillset from './pages/Skillset';
 import Contact from './pages/Contact';
 import Journey from './pages/Journey';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './styles/bootstrap.min.css';
 import './styles/all.min.css';
 import './styles/style.css';
 import './styles/responsive.css';
