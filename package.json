@@ -1,5 +1,6 @@
 {
   "dependencies": {
-    "node-fetch": "^3.3.2"
+    "node-fetch": "^3.3.2",
+    "simple-swizzle": "^0.2.2"
   }
 }
