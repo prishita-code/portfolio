@@ -6,6 +6,11 @@ import './styles/all.min.css';
 import './styles/style.css';
 import './styles/responsive.css';
 
+if (typeof global.fetch === 'undefined') {
+  global.fetch = require('node-fetch');
+}
+
+
 ReactDOM.render(
     <React.StrictMode>
         <App />
