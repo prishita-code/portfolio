@@ -1,4 +1,5 @@
 import React from 'react';
+import 'isomorphic-fetch';
 import ReactDOM from 'react-dom';
 import App from './App';
 import './styles/bootstrap.min.css';
