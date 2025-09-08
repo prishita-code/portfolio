@@ -24,7 +24,8 @@ const Skillset = () => {
                                     <div className="sevices-img text-center py-4">
                                         <img src={S1} alt="Backend developer" />
                                     </div>
-                                    <div className="card-body text-center flex-grow-1">
+                                    <div className="card-body text-center flex-grow-1"
+                                    >
                                         <h5 className="card-title text-uppercase font-roboto">Backend developer</h5>
                                         <p className="card-text text-secondary">
                                             Developed and deployed functional APIs, jobs and services while aligning with scheduler in real time.

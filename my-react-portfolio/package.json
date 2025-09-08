@@ -1,9 +1,12 @@
 {
   "name": "my-react-portfolio",
   "version": "1.0.0",
+  "homepage": "http://yourusername.github.io/my-react-portfolio",
   "description": "A multi-page portfolio application built with React.",
   "main": "index.js",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -25,9 +28,8 @@
   },
   "devDependencies": {
     "gh-pages": "^6.3.0",
-    "react-scripts": "^0.0.0"
+    "react-scripts": "^5.0.0"
   },
-  "homepage": "http://yourusername.github.io/my-react-portfolio",
   "browserslist": {
     "production": [
       ">0.2%",
