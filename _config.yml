@@ -1,0 +1,11 @@
+# Tell Jekyll to exclude the node_modules and other build directories
+exclude:
+  - my-react-portfolio/node_modules/
+  - my-react-portfolio/build/
+  - my-react-portfolio/.cache/
+  - my-react-portfolio/package.json
+  - my-react-portfolio/package-lock.json
+  - my-react-portfolio/README.md
+
+# If you want to use a theme (optional)
+theme: jekyll-theme-primer
