@@ -1,5 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import 'isomorphic-fetch';
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import About from './pages/About';
