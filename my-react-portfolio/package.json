@@ -1,7 +1,7 @@
 {
   "name": "my-react-portfolio",
   "version": "1.0.0",
-  "homepage": "http://yourusername.github.io/my-react-portfolio",
+  "homepage": ".",
   "description": "A multi-page portfolio application built with React.",
   "main": "index.js",
   "scripts": {
