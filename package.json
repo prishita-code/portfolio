@@ -1,6 +1,15 @@
 {
+  "homepage": "https://yourusername.github.io/portfolio",
+"scripts": {
+  "build": "react-scripts build",   
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
+ },
   "dependencies": {
     "node-fetch": "^3.3.2",
     "simple-swizzle": "^0.2.2"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   }
 }
