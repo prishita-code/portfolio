@@ -2,7 +2,7 @@
   "name": "my-react-portfolio",
   "version": "1.0.0",
   "description": "A multi-page portfolio application built with React.",
-  "homepage": "https://portfolio-prishitas-projects-48b8c838
+  "homepage": "https://portfolio-prishitas-projects-48b8c838",
   "main": "index.js",
   "scripts": {
     "predeploy": "npm run build",
