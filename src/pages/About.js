@@ -20,7 +20,7 @@ const About = () => {
                         </h2>
                         <div className="paragraph py-4 w-75">
                             <p className="para">
-                                Software Engineer and aspiring Technical Program Manager with a proven track record of leading the delivery of high-scale software projects and complex online services. My deep hands-on technical expertise in full-stack development and SRE provides a critical foundation for effectively managing programs, de-risking projects, and bridging communication between engineering teams and business stakeholders.
+                                Software Engineer and aspiring Technical Program Manager with a proven record of leading the delivery of high-scale software projects and complex online services. My deep hands-on technical expertise in full-stack development and SRE provides a critical foundation for effectively managing programs, de-risking projects, and bridging communication between engineering teams and business stakeholders.
                             </p>
                             <p className="para mb-2 fw-bold">I specialize in:</p>
                             <ul className="para ps-3">
