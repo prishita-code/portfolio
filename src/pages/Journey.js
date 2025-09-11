@@ -52,8 +52,8 @@ const Journey = () => {
     <div className="journey-wrapper">
       {/* Fixed Section */}
       <div className="journey-header">
-        <h2 className="title-text">Our Journey Timeline</h2>
-        <p className="subtitle">Follow our growth through the years</p>
+        <h2 className="title-text">My Journey </h2>
+        <p className="subtitle">Across the years</p>
 
         <div className="timeline-controls">
           <button 
