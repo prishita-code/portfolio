@@ -33,4 +33,4 @@ jobs:
         path: ./build
     - uses: actions/deploy-pages@v4
       with:
-        path: ./build
+        artifact_name: github-pages
