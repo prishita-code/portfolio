@@ -16,10 +16,9 @@ import './styles/responsive.css';
 
 function App() {
     return (
-        <Router>
+         <Router basename="/portfolio">
             <div>
                 <Navbar />
-                <Home />
                 <Switch>
                     <Route path="/" exact component={Home} />
                     <Route path="/about" component={About} />
