@@ -19,6 +19,7 @@ function App() {
         <Router>
             <div>
                 <Navbar />
+                <Home />
                 <Switch>
                     <Route path="/" exact component={Home} />
                     <Route path="/about" component={About} />
