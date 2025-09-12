@@ -17,10 +17,10 @@ const Journey = () => {
     { year: '2020', title: 'Graduated', description: 'Finished Bachelors' },
     { year: '2020', title: 'First Job', description: 'Joined as a Software Engineer at Macquarie' },
     { year: '2022', title: 'Promoted', description: 'Promoted to Senior Software Developer' },
-    { year: '2022', title: 'Masters', description: 'Started Masters at Trinity College Dunlin (MSc Computer Science)' },
+    { year: '2022', title: 'Masters', description: 'Started Masters at Trinity College Dublin (MSc Computer Science)' },
     { year: '2023', title: 'Graduated', description: 'Completed Masters' },
     { year: '2023', title: 'New Role', description: 'Joined Bank of Ireland as Technical Service Owner' },
-    { year: '2025', title: 'Promoted', description: 'Promoted to Senior Rescilience Analyst' },
+    { year: '2025', title: 'Promoted', description: 'Promoted to Senior Resilience Analyst' },
   ];
 
   const handleNext = () => {
